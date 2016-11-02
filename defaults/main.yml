@@ -17,6 +17,7 @@ common_packages:
         - bash-completion
         - rsync
         - zsync
+        - logrotate
         - python-pip
         - tcpdump
         - libssl-dev
@@ -24,7 +25,6 @@ common_packages:
         - apt-transport-https
         - ca-certificates
         - iptables-persistent
-        - mosh
         - hdparm
         - iptraf
         - iftop
