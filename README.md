@@ -1,5 +1,5 @@
 # Debian Role: Common
-
+[!Build Status](https://travis-ci.org/sdmoko/debian-common.svg)](https://travis-ci.org/sdmoko/debian-common)
 Installs common packages on Debian/Ubuntu GNU/Linux servers.
 ## Requirements
 None.
