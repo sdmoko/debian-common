@@ -1,0 +1,20 @@
+---
+depedencies: []
+
+galaxy_info:
+  author: Syah Dwi Prihatmoko
+  description: Install common packages on Debian/Ubuntu GNU/Linux servers.
+  license: MIT
+  min_ansible_version: 2.1
+  platforms:
+  - name: Debian
+    versions:
+    - jessie
+  - name: Ubuntu
+    versions:
+    - trusty
+    - xenial
+  galaxy_tags:
+    - debian
+    - ubuntu
+    - common

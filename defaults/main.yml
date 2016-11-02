@@ -1,0 +1,32 @@
+---
+debian:
+    version: jessie
+    locale: en_US.UTF-8
+    mirror: kambing.ui.ac.id
+
+common_packages:
+        - vim
+        - curl
+        - wget
+        - git
+        - zip
+        - unzip
+        - screen
+        - htop
+        - gnupg
+        - bash-completion
+        - rsync
+        - zsync
+        - python-pip
+        - tcpdump
+        - libssl-dev
+        - build-essential
+        - apt-transport-https
+        - ca-certificates
+        - iptables-persistent
+        - mosh
+        - hdparm
+        - iptraf
+        - iftop
+        - iotop
+        - ncftp
