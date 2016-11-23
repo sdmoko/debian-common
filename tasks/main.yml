@@ -5,9 +5,7 @@
     dest: /etc/apt/sources.list
 
 - name: Upgrade repos
-  apt: 
-    update_cache: yes
-    upgrade: yes
+  apt: update_cache=yes upgrade=yes
 
 - name: Install common packages
   apt:
