@@ -4,9 +4,10 @@
     src: sources.list.ui 
     dest: /etc/apt/sources.list
 
-- name: Update repos
+- name: Upgrade repos
   apt: 
     update_cache: yes
+    upgrade: yes
 
 - name: Install common packages
   apt:
