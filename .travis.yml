@@ -4,7 +4,7 @@ python: "2.7"
 
 # Use the new container infrastructure
 sudo: required
-dist: jessie
+dist: trusty
 
 env:
   - SITE=test.yml ANSIBLE_VERSION=latest
@@ -16,7 +16,6 @@ branches:
 
 before_install:
   - sudo apt update -qq
-  - sudo apt upgrade -y
   - sudo apt install -y curl
 
 install:
